@@ -11,6 +11,12 @@ inputs:
   tag_name:
     description: Tag Name
     required: true
+  docker_username:
+    description: Docker Username
+    required: true
+  docker_password:
+    description: Docker Password
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
